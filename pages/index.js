@@ -1,65 +1,105 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Clínica Médica Dermatológica | Dra. Maria Obregón</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div className={styles.header}>
+          <p className={styles.headerInfo}>
+            <a className={styles.headerInfoLink} href="tel:23683623">
+              +(502) 2368-3623
+            </a>
+            <a
+              className={styles.headerInfoLink}
+              target="_blank"
+              href="https://www.google.com/maps/place/Cl%C3%ADnica+M%C3%A9dica+Dermatol%C3%B3gica+-+Dra.+Maria+Obreg%C3%B3n/@14.585424,-90.518847,15z/data=!4m5!3m4!1s0x0:0x9160c3c823d2ea09!8m2!3d14.585424!4d-90.518847"
+            >
+              10a Calle 2-45 zona 14. Edificio Clínicas Médicas Las Américas,
+              Clínica 601.
+            </a>
+          </p>
         </div>
+        <h1 className={styles.title}>Clínica Médica Dermatológica</h1>
+        <div className={styles.hero}>
+          <h2 className={styles.subtitle}>
+            Diagnóstico y tratamiento de enferemedades de la piel, uñas y
+            cabello.
+          </h2>
+        </div>
+
+        <h1 className={styles.descriptionTitle}>Dra. Maria Obregón de León</h1>
+        <p className={styles.description}>
+          Más de 25 años de experiencia en dermatología médica.
+        </p>
+        <p className={styles.description}>
+          Médico de red de EPSS, Mapfre y RPN
+        </p>
+        <a href="tel:23683623">
+          <button className={styles.ctaCall}>Llamar para pedir cita</button>
+        </a>
+
+        {/* <div className={styles.scrollBar}>
+          <p className={styles.description}>
+            Especialista en el tratamiento de:
+          </p>
+
+          <div className={styles.grid}>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+            <div className={styles.card}>Acné</div>
+          </div>
+        </div> */}
+
+        <h2 className={styles.descriptionTitle}>Consulta Médica</h2>
+        <iframe
+          className={styles.map}
+          width="360"
+          height="450"
+          frameborder="0"
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJv79rP0ijiYURCerSI8jDYJE&key=AIzaSyB3QAIxc4PGiBS7XDDGGk4TukafRIkcM3o"
+          allowfullscreen
+        ></iframe>
+        
+        <div className={styles.localInfo}>
+        <h3 className={styles.localTitle}>Ubicación</h3>
+        <p className={styles.localDescription}>
+          10a calle 2-45 zona 14 <br/>
+          Clínicas Médicas Las Américas<br/>
+          Clínica 601<br/>
+          Ciudad de Guatemala, 01014<br/>
+        </p>
+        <br/>
+        <h3 className={styles.localTitle}>Teléfono</h3>
+        <p className={styles.localDescription}>
+          <a href="tel:23683623">+(502) 2368-3623</a>
+        </p>
+        </div>
+
+        
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+© 2020 Clínica Médica Dermatológica | <br/>Dra. Maria Obregón
       </footer>
     </div>
-  )
+  );
 }
