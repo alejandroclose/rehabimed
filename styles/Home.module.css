@@ -117,6 +117,7 @@
   margin: 0.5rem;
   text-align: center;
   font-family: "Lato", sans-serif;
+  font-weight: 500;
 }
 
 .ctaCall {
@@ -130,17 +131,6 @@
   border: none;
   cursor:pointer;
   margin-bottom: 4rem;
-}
-
-.scrollBar {
-  width: 100vw;
-  height: 40vh;
-  background-color: #f2f7f9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4rem;
 }
 
 .localInfo {
@@ -158,38 +148,6 @@
 .localDescription {
   margin: 0 0 1rem 1rem;
   font-family: "Lato", sans-serif;
-}
-
-.grid {
-  width: 30vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3rem;
-  overflow-x: scroll;;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1rem;
-  text-align: left;
-  background-color: white;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  height: 5rem;
-  width: 4.5rem;
-}
-
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
 }
 
 .logo {

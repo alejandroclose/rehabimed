@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Scrollbar from "../components/scrollbar"
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -44,30 +45,7 @@ export default function Home() {
           <button className={styles.ctaCall}>Llamar para pedir cita</button>
         </a>
 
-        {/* <div className={styles.scrollBar}>
-          <p className={styles.description}>
-            Especialista en el tratamiento de:
-          </p>
-
-          <div className={styles.grid}>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-            <div className={styles.card}>Acné</div>
-          </div>
-        </div> */}
+        <Scrollbar />
 
         <h2 className={styles.descriptionTitle}>Consulta Médica</h2>
         <iframe

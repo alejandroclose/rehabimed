@@ -1,0 +1,46 @@
+.scroll {
+  overflow: hidden;
+}
+
+.scrollbarTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+.scrollbar {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.card {
+  min-width: 10vw;
+  height: 24vh;
+  background-color: #cae5dc;
+  color: #264449;
+  margin: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  line-height: 19px;
+}
+
+@media (max-width: 600px) {
+  .scrollbar {
+    width: 100vw;
+  }
+
+  .card {
+    min-width: 90px;
+    height: 100px;
+  }
+}
