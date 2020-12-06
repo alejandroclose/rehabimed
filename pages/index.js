@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Scrollbar from "../components/scrollbar"
+import Scrollbar from "../components/scrollbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -38,9 +38,7 @@ export default function Home() {
         <p className={styles.description}>
           Más de 25 años de experiencia en dermatología médica.
         </p>
-        <p className={styles.description}>
-          Médico de red de EPSS, Mapfre y RPN
-        </p>
+        <p className={styles.description}>Médico de red de Mapfre y RPN</p>
         <a href="tel:23683623">
           <button className={styles.ctaCall}>Llamar para pedir cita</button>
         </a>
@@ -50,33 +48,40 @@ export default function Home() {
         <h2 className={styles.descriptionTitle}>Consulta Médica</h2>
         <iframe
           className={styles.map}
-          width="360"
-          height="450"
           frameBorder="0"
           src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJv79rP0ijiYURCerSI8jDYJE&key=AIzaSyB3QAIxc4PGiBS7XDDGGk4TukafRIkcM3o"
           allowfullscreen
         ></iframe>
+
+        <div className={styles.local}>
+        <div className={styles.localInfo}>
+          <h3 className={styles.localTitle}>Ubicación</h3>
+          <p className={styles.localDescription}>
+            10a calle 2-45 zona 14 <br />
+            Clínicas Médicas Las Américas
+            <br />
+            Clínica 601
+            <br />
+            Ciudad de Guatemala, 01014
+            <br />
+          </p>
+        </div>
         
         <div className={styles.localInfo}>
-        <h3 className={styles.localTitle}>Ubicación</h3>
-        <p className={styles.localDescription}>
-          10a calle 2-45 zona 14 <br/>
-          Clínicas Médicas Las Américas<br/>
-          Clínica 601<br/>
-          Ciudad de Guatemala, 01014<br/>
-        </p>
-        <br/>
-        <h3 className={styles.localTitle}>Teléfono</h3>
-        <p className={styles.localDescription}>
-          <a href="tel:23683623">+(502) 2368-3623</a>
-        </p>
+          <h3 className={styles.localTitle}>Teléfono</h3>
+          <p className={styles.localDescription}>
+            <a href="tel:23683623">+(502) 2368-3623</a>
+          </p>
         </div>
-
-        
+        <div className={styles.localInfo}>
+          <h3 className={styles.localTitle}>Atención de Lunes a Sábado</h3>
+        </div>
+        </div>
       </main>
 
       <footer className={styles.footer}>
-© 2020 Clínica Médica Dermatológica | <br/>Dra. Maria Obregón
+        © 2020 Clínica Médica Dermatológica | <br />
+        Dra. Maria Obregón
       </footer>
     </div>
   );

@@ -59,6 +59,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #407079;
+  color: white;
+  margin: 2rem 0 0;
+  font-size: 0.75rem;
 }
 
 .footer img {
@@ -83,7 +87,10 @@
 }
 
 .title {
-  margin: 0.5rem;
+  padding: 1rem;
+  background-color: #F2F7F9;
+  width: 100vw;
+  margin:  0 auto;
 }
 
 .title,
@@ -133,21 +140,31 @@
   margin-bottom: 4rem;
 }
 
-.localInfo {
+.local {
+  width: 50vw;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.localInfo {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: flex-start;
   font-family: "Lato", sans-serif;
 }
 
 .localTitle {
-  margin: 0 0 0.5rem 0.5rem;
+  margin: 1rem 0 0;
   font-family: "Lato", sans-serif;
 }
 
 .localDescription {
-  margin: 0 0 1rem 1rem;
+  margin-top: 0.5rem;
   font-family: "Lato", sans-serif;
+  color: #407079
 }
 
 .logo {
@@ -156,6 +173,8 @@
 
 .map {
   margin: 0 0 2rem 0;
+  width: 40vw;
+  height: 40vh;
 }
 
 @media (max-width: 600px) {
@@ -173,7 +192,7 @@
 
   .title {
     font-size: 1.5rem;
-    width: 50vw;
+    width: 100vw;
   }
 
   .subtitle {
@@ -190,12 +209,18 @@
     font-size: 1rem;
   }
 
-  .localInfo {
+  .local {
+    width: 80vw;
     flex-direction: column;
   }
 
-  .grid {
-    width: 100%;
+  .localInfo {
     flex-direction: column;
+    width: 80vw;
+    margin: 0;
+  }
+
+  .map {
+    width: 90vw;
   }
 }

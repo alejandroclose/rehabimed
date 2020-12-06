@@ -1,3 +1,11 @@
+.container {
+  background-color: #F2F7F9;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
 .scroll {
   overflow: hidden;
 }
@@ -11,7 +19,7 @@
 }
 
 .scrollbar {
-  width: 50vw;
+  width: 90vw;
   height: 100%;
   display: flex;
   flex-direction: row;

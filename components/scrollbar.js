@@ -3,7 +3,8 @@ import ScrollContainer from 'react-indiana-drag-scroll'
 
 export default function Scrollbar() {
   return (
-    <div className={styles.scroll}>
+    <div className={styles.container}>
+      <div className={styles.scroll}>
       <h3 className={styles.scrollbarTitle}>
         Especialista en el tratamiento de:
       </h3>
@@ -28,5 +29,7 @@ export default function Scrollbar() {
         <div className={styles.card}>etc.</div>
       </ScrollContainer>
     </div>
+    </div>
+    
   );
 }
