@@ -124,6 +124,8 @@
 @media (max-width: 600px) {
   .hero {
     height: 20rem;
+    width: 100vw;
+    background-size: 100vw;
   }
 
   .title {
@@ -143,5 +145,6 @@
 
   .description {
     font-size: 1rem;
+    width: 80vw;
   }
 }
