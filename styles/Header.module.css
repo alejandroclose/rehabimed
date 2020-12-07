@@ -1,0 +1,44 @@
+.header {
+  height: 4rem;
+  width: 100vw;
+  background-color: #407079;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.headerInfo {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0rem 0.5rem;
+}
+
+.headerInfoLink {
+  text-align: center;
+  line-height: 1rem;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem;
+  background-color: #F2F7F9;
+  width: 100vw;
+  margin:  0 auto;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 3rem;
+  }
+
+  .headerInfo {
+    font-size: 0.55rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    width: 100vw;
+  }
+}

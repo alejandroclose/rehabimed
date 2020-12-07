@@ -11,7 +11,6 @@ export default function Scrollbar() {
       <ScrollContainer className={styles.scrollbar}>
         <div className={styles.card}>Acné</div>
         <div className={styles.card}>Alergias</div>
-        <div className={styles.card}>Ampollas</div>
         <div className={styles.card}>Cicatrices</div>
         <div className={styles.card}>Daño Solar</div>
         <div className={styles.card}>Eczema</div>

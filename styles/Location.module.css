@@ -1,0 +1,70 @@
+.descriptionTitle {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
+.local {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.localInfo {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-family: "Lato", sans-serif;
+}
+
+.localTitle {
+  margin: 1rem 0 0;
+  font-family: "Lato", sans-serif;
+}
+
+.localDescription {
+  margin-top: 0.5rem;
+  font-family: "Lato", sans-serif;
+  color: #407079
+}
+
+.map {
+  margin: 0 0 2rem 0;
+  width: 40vw;
+  height: 40vh;
+}
+
+@media (max-width: 600px) {
+  .subtitle {
+    width: 80vw;
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
+
+  .descriptionTitle {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .local {
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  .localInfo {
+    flex-direction: column;
+    width: 80vw;
+    margin: 0;
+  }
+
+  .map {
+    width: 90vw;
+  }
+}

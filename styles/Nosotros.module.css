@@ -16,13 +16,12 @@
 }
 
 .hero {
-  height: 25rem;
-  width: 100vw;
-  background-image: url("/hero.png");
+  height: 15rem;
+  width: 20vw;
+  background-image: url("/dra_maria_obregon.png");
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 20vw;
   background-color: black;
-  opacity: 0.7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,10 +96,10 @@
 }
 
 .description {
-  width: 80vw;
+  width: 50vw;
   font-size: 1.25rem;
   margin: 0.5rem;
-  text-align: center;
+  text-align: left;
   font-family: "Lato", sans-serif;
   font-weight: 500;
 }
@@ -124,7 +123,7 @@
 
 @media (max-width: 600px) {
   .hero {
-    height: 15rem;
+    height: 20rem;
   }
 
   .title {
@@ -139,7 +138,7 @@
   }
 
   .descriptionTitle {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
 
   .description {
