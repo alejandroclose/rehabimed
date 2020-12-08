@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Image from "next/image";
-import Link from 'next/link'
+import Link from "next/link";
 
 import styles from "../styles/Header.module.css";
 
@@ -12,6 +12,8 @@ export default function Header() {
   });
   return (
     <>
+      {/* Página web diseñada por Mohamad Safi - https://www.mohamadsafi.com/
+    Desarrollo web por Alejandro Close - https://www.alejandroclose.com/ */}
       <div className={styles.header}>
         <p className={styles.headerInfo}>
           <a className={styles.headerInfoLink} href="tel:23683623">
@@ -29,7 +31,9 @@ export default function Header() {
       </div>
       <div className={styles.billboard}>
         <div className={styles.space}></div>
-        <h1 className={styles.title}><Link href="/">Clínica Médica Dermatológica</Link></h1>
+        <h1 className={styles.title}>
+          <Link href="/">Clínica Médica Dermatológica</Link>
+        </h1>
         <button
           className={styles.hamburger}
           onClick={() => setNavOpen(!navOpen)}
@@ -42,19 +46,19 @@ export default function Header() {
           />
         </button>
       </div>
-        <animated.div className={styles.nav} style={slide}>
-          <div className={styles.links}>
-            <h2 className={styles.anchor}>
-              <Link href="/">Inicio</Link>
-            </h2>
-            <h2 className={styles.anchor}>
-              <Link href="/sobre-nosotros">Sobre Nosotros</Link>
-            </h2>
-            <h2 className={styles.anchor}>
-              <Link href="/contacto">Contacto</Link>
-            </h2>
-          </div>
-        </animated.div>
+      <animated.div className={styles.nav} style={slide}>
+        <div className={styles.links}>
+          <h2 className={styles.anchor}>
+            <Link href="/">Inicio</Link>
+          </h2>
+          <h2 className={styles.anchor}>
+            <Link href="/sobre-nosotros">Sobre Nosotros</Link>
+          </h2>
+          <h2 className={styles.anchor}>
+            <Link href="/contacto">Contacto</Link>
+          </h2>
+        </div>
+      </animated.div>
     </>
   );
 }
