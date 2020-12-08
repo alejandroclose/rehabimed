@@ -7,7 +7,7 @@ export default function Nosotros() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Clínica Médica Dermatológica | Dra. Maria Obregón</title>
+        <title>Nosotros | Dra. Maria Obregón</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

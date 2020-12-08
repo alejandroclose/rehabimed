@@ -11,7 +11,7 @@ export default function Location() {
         allowfullscreen
       ></iframe>
 
-      <div className={styles.local}>
+      <div className={styles.local} id="contacto">
         <div className={styles.localInfo}>
           <h3 className={styles.localTitle}>Ubicación</h3>
           <p className={styles.localDescription}>

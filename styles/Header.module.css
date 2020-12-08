@@ -3,6 +3,9 @@
   width: 100vw;
   background-color: #407079;
   border-radius: 0px 0px 15px 15px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 
 .headerInfo {
@@ -20,12 +23,54 @@
   line-height: 1rem;
 }
 
+.billboard {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f7f9;
+  position: fixed;
+  top: 4rem;
+  z-index: 998;
+}
+
 .title {
   text-align: center;
   padding: 1rem;
-  background-color: #F2F7F9;
+  background-color: #f2f7f9;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.hamburger {
+  background-color: #f2f7f9;
+  border: none;
+  padding: 1rem;
+}
+
+.space {
+  width: 5vw;
+  background-color: #f2f7f9;
+}
+
+.nav {
   width: 100vw;
-  margin:  0 auto;
+  height: 100vh;
+  position: fixed;
+  background-color: #f2f7f9;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  top: 15vh;
+  z-index: 997;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 3rem 0 0;
+}
+
+.anchor {
+  font-family: "Lato", sans-serif;
 }
 
 @media (max-width: 600px) {
@@ -39,6 +84,19 @@
 
   .title {
     font-size: 1.5rem;
-    width: 100vw;
+    width: 70vw;
+  }
+
+  .space {
+    width: 15vw;
+  }
+
+  .nav {
+    top: 20vh;
+  }
+
+  .billboard{
+    top: 2rem;
+    padding-top: 1rem;
   }
 }
