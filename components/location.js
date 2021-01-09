@@ -8,7 +8,7 @@ export default function Location() {
         className={styles.map}
         frameBorder="0"
         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJv79rP0ijiYURCerSI8jDYJE&key=AIzaSyB3QAIxc4PGiBS7XDDGGk4TukafRIkcM3o"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
 
       <div className={styles.local} id="contacto">
