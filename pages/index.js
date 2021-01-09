@@ -25,7 +25,7 @@ export default function Home() {
         <p className={styles.description}>
           Más de 25 años de experiencia en dermatología médica.
         </p>
-        <p className={styles.description}>Médico de red de Mapfre, RPN y Roblered</p>
+        <p className={styles.description}>Médico de red de Mapfre, RPN, Roblered y Seguros Agromercantil</p>
         <a href="tel:23683623">
           <button className={styles.ctaCall}>Llamar para pedir cita</button>
         </a>
