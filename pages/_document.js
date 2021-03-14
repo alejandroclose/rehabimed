@@ -7,6 +7,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+        <meta name="description" content="Clínica Médica especializada en Rehabilitación y Medicina Deportiva."></meta>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
