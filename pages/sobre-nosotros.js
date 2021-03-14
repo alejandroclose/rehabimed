@@ -18,9 +18,19 @@ export default function Nosotros() {
 
         <h1 className={styles.descriptionTitle}>Dr. Álvaro Obregón Díaz de León</h1>
         <p className={styles.description}>
-        Médico y cirujano por la Universidad de San Carlos de Guatemala, inició hace más de 25 años en el diagnóstico y tratamiento de enfermedades de la piel como alumna de los dermatólogos Dr. Jorge E. Close De León y Dr. Arturo García Valdez.  Obtuvo su especialidad en Dermatología del Instituto Dermatológico de Guadalajara, México.
+        <ul>
+          <li>Médico y Cirujano por la Universidad de San Carlos de Guatemala.</li>
+          <li>Médico Especialista en Medicina Física y Rehabilitación del Hospital Roosevelt.</li>
+          <li>Especialidad en Investigación Científica por parte de la Universidad de San Carlos de Guatemala.</li>
+          <li>Certificación Internacional en vendaje funcional en deportistas.</li>
+          <li>Certificación Internacional en vendaje neuro muscular.</li>
+          <li>Certificación Internacional de manejo de dolor miofascial a través de punción seca.</li>
+          <li>Estudios en Parálisis Cerebral en el Instituto Nacional de Rehabilitación en Ciudad de México, México.</li>
+          <li>Certificación internacional de colocación de toxina botulínica ecoguiada.</li>
+          <li>Creador y actual Jefe de Servicio de Rehabilitación Neonatal en el Hospital Roosevelt.</li>
+        </ul>
         </p>
-        <p className={styles.description}>Durante muchos años prestó servicios en el Instituto Guatemalteco de Seguridad Social y Hospital Roosevelt como dermatóloga para adultos y niños, obteniendo una amplia experiencia en los problemas de la piel más comunes y extraños de las diferentes regiones de Guatemala.</p>
+        
         <a href="https://api.whatsapp.com/send?phone=+50256294566">
           <button className={styles.ctaCall}>Pedir cita por WhatsApp</button>
         </a>
@@ -28,7 +38,7 @@ export default function Nosotros() {
       </main>
 
       <footer className={styles.footer}>
-        © 2020 Rehabi-Med | <br />
+        © Rehabi-Med | <br />
         Dr. Álvaro Obregón Díaz
       </footer>
     </div>

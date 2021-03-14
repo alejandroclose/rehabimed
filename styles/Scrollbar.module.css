@@ -28,7 +28,7 @@
 }
 
 .card {
-  min-width: 10vw;
+  width: 13vw;
   height: 20vh;
   background-color: #449a98;
   color: #ffffff;
@@ -41,6 +41,7 @@
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   line-height: 19px;
+  text-align:center;
 }
 
 @media (max-width: 600px) {
@@ -49,7 +50,7 @@
   }
 
   .card {
-    min-width: 100px;
+    min-width: 45vw;
     height: 100px;
   }
 }

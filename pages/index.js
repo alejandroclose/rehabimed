@@ -23,6 +23,9 @@ export default function Home() {
         <p className={styles.description}>
           Especialista en Medicina Física y Rehabilitación.
         </p>
+        <p className={styles.description}>
+          Certificación Internacional en vendaje funcional en deportistas, vendaje neuro muscular y manejo de dolor miofascial.
+        </p>
         <a href="https://api.whatsapp.com/send?phone=+50256294566">
           <button className={styles.ctaCall}>Pedir cita por WhatsApp</button>
         </a>
