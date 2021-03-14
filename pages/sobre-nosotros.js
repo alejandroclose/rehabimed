@@ -16,7 +16,7 @@ export default function Nosotros() {
         <div className={styles.hero}>
         </div>
 
-        <h1 className={styles.descriptionTitle}>Dr. Álvaro Obregón Díaz de León</h1>
+        <h1 className={styles.descriptionTitle}>Dr. Álvaro Obregón Díaz</h1>
         <p className={styles.description}>
         <ul>
           <li>Médico y Cirujano por la Universidad de San Carlos de Guatemala.</li>
