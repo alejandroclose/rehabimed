@@ -30,7 +30,6 @@ export default function Header() {
         </p>
       </div>
       <div className={styles.billboard}>
-        <div className={styles.space}></div>
         <h1 className={styles.title}>
           <Link href="/">
             <Image

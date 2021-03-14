@@ -32,7 +32,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        © 2020 Rehabi-Med | <br />
+        © Rehabi-Med | <br />
         Dr. Álvaro Obregón Díaz
       </footer>
     </div>
