@@ -18,11 +18,11 @@
 .hero {
   height: 25rem;
   width: 100vw;
-  background-image: url("/hero.png");
+  background-image: url("/rowboat-josh-calabrese.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
   background-color: black;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #407079;
+  background-color: #449a98;
   color: white;
   margin: 2rem 0 0;
   font-size: 0.75rem;
@@ -107,7 +107,7 @@
 }
 
 .ctaCall {
-  background: #407079;
+  background: #449a98;
   border-radius: 6px;
   width: 240px;
   height: 63px;

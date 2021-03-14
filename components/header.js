@@ -16,8 +16,8 @@ export default function Header() {
     Desarrollo web por Alejandro Close - https://www.alejandroclose.com/ */}
       <div className={styles.header}>
         <p className={styles.headerInfo}>
-          <a className={styles.headerInfoLink} href="tel:23683623">
-            +(502) 2368-3623
+          <a className={styles.headerInfoLink} href="https://api.whatsapp.com/send?phone=+50256294566">
+            WhatsApp +(502) 5629-4566
           </a>
           <a
             className={styles.headerInfoLink}
@@ -32,7 +32,13 @@ export default function Header() {
       <div className={styles.billboard}>
         <div className={styles.space}></div>
         <h1 className={styles.title}>
-          <Link href="/">Clínica Médica Dermatológica</Link>
+          <Link href="/">
+            <Image
+            src="/rehabimed.jpg"
+            width={150}
+            height={50}>
+            </Image>
+          </Link>
         </h1>
         <button
           className={styles.hamburger}

@@ -7,7 +7,7 @@ export default function Contacto() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Contacto | Dra. Maria Obregón</title>
+        <title>Contacto | Dr. Álvaro Obregón Díaz</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,8 +17,8 @@ export default function Contacto() {
       </main>
 
       <footer className={styles.footer}>
-        © 2020 Clínica Médica Dermatológica | <br />
-        Dra. Maria Obregón
+        © 2020 Rehabi-Med | <br />
+        Dr. Álvaro Obregón Díaz
       </footer>
     </div>
   );

@@ -1,7 +1,7 @@
 .header {
   height: 4rem;
   width: 100vw;
-  background-color: #407079;
+  background-color: #449a98;
   border-radius: 0px 0px 15px 15px;
   position: fixed;
   top: 0;
@@ -27,36 +27,36 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
-  background-color: #f2f7f9;
+  background-color: #ffffff;
   position: fixed;
   top: 4rem;
   z-index: 998;
 }
 
 .title {
-  text-align: center;
+  text-align: start;
   padding: 1rem;
-  background-color: #f2f7f9;
+  background-color: #ffffff;
   width: 70vw;
   margin: 0 auto;
 }
 
 .hamburger {
-  background-color: #f2f7f9;
+  background-color: #ffffff;
   border: none;
   padding: 1rem;
 }
 
 .space {
   width: 5vw;
-  background-color: #f2f7f9;
+  background-color: #ffffff;
 }
 
 .nav {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  background-color: #f2f7f9;
+  background-color: #ffffff;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -85,6 +85,7 @@
   .title {
     font-size: 1.5rem;
     width: 70vw;
+    text-align: center;
   }
 
   .space {

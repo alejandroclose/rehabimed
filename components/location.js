@@ -28,11 +28,11 @@ export default function Location() {
         <div className={styles.localInfo}>
           <h3 className={styles.localTitle}>Teléfono</h3>
           <p className={styles.localDescription}>
-            <a href="tel:23683623">+(502) 2368-3623</a>
+            <a href="https://api.whatsapp.com/send?phone=+50256294566">+(502) 5629-4566</a>
           </p>
         </div>
         <div className={styles.localInfo}>
-          <h3 className={styles.localTitle}>Atención de Lunes a Sábado</h3>
+          <h3 className={styles.localTitle}>Atención de Lunes a Viernes</h3>
         </div>
       </div>
     </>

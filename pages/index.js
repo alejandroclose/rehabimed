@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Clínica Médica Dermatológica | Dra. Maria Obregón</title>
+        <title>Rehabi-Med | Dr. Álvaro Obregón Díaz</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,18 +16,15 @@ export default function Home() {
         <Header />
         <div className={styles.hero}>
           <h2 className={styles.subtitle}>
-            Diagnóstico y tratamiento de enferemedades de la piel, uñas y
-            cabello.
           </h2>
         </div>
 
-        <h1 className={styles.descriptionTitle}>Dra. Maria Obregón de León</h1>
+        <h1 className={styles.descriptionTitle}>Dr. Álvaro Obregón Díaz</h1>
         <p className={styles.description}>
-          Más de 25 años de experiencia en dermatología médica.
+          Especialista en Medicina Física y Rehabilitación.
         </p>
-        <p className={styles.description}>Médico de red de Mapfre, RPN, Roblered y Seguros Agromercantil</p>
-        <a href="tel:23683623">
-          <button className={styles.ctaCall}>Llamar para pedir cita</button>
+        <a href="https://api.whatsapp.com/send?phone=+50256294566">
+          <button className={styles.ctaCall}>Pedir cita por WhatsApp</button>
         </a>
 
         <Scrollbar />
@@ -35,8 +32,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        © 2020 Clínica Médica Dermatológica | <br />
-        Dra. Maria Obregón
+        © 2020 Rehabi-Med | <br />
+        Dr. Álvaro Obregón Díaz
       </footer>
     </div>
   );
