@@ -16,18 +16,17 @@
 }
 
 .hero {
-  min-height: 30rem;
+  height: 30rem;
   width: 20vw;
-  background-image: url("/dr_alvaro_obregon_diaz.jpg");
-  background-repeat: no-repeat;
-  background-size: 20vw;
-  background-color: black;
+  /* background-image: url("/dr_alvaro_obregon_diaz.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size: 20vw; */
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  margin-bottom: 2rem;
-  margin-top: 7rem;
+  margin-top: 9rem;
 }
 
 .footer {

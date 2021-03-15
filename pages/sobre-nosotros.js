@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Header from "../components/header";
 import Location from "../components/location";
 import styles from "../styles/Nosotros.module.css";
@@ -14,6 +15,11 @@ export default function Nosotros() {
       <main className={styles.main}>
         <Header />
         <div className={styles.hero}>
+          <Image
+          src="/dr_alvaro_obregon_diaz.jpg"
+          width='225px'
+          height='350px'
+           />
         </div>
 
         <h1 className={styles.descriptionTitle}>Dr. Álvaro Obregón Díaz</h1>
