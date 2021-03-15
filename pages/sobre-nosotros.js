@@ -16,7 +16,7 @@ export default function Nosotros() {
         <Header />
         <div className={styles.hero}>
           <Image
-          src="/dr_alvaro_obregon_diaz.jpg"
+          src="/images/dr_alvaro_obregon_diaz.jpg"
           width='225px'
           height='350px'
            />
