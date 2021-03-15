@@ -16,9 +16,9 @@
 }
 
 .hero {
-  height: 15rem;
+  min-height: 30rem;
   width: 20vw;
-  background-image: url("/");
+  background-image: url("/dr_alvaro_obregon_diaz.jpg");
   background-repeat: no-repeat;
   background-size: 20vw;
   background-color: black;
