@@ -8,7 +8,7 @@ export default function Nosotros() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Nosotros | Dr. Álvaro Obregón Díaz</title>
+        <title>Sobre Rehabi-Med | Dr. Álvaro Obregón Díaz</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
