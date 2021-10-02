@@ -9,6 +9,8 @@ export default function Scrollbar() {
         Prevención, rehabilitación y tratamiento de adultos y niños.
       </h3>
       <ScrollContainer className={styles.scrollbar}>
+        <div className={styles.card}>Rehabilitación COVID-19</div>
+        <div className={styles.card}>Infiltración de plasma rico en plaquetas</div>
         <div className={styles.card}>Lesiones deportivas</div>
         <div className={styles.card}>Parálisis cerebral</div>
         <div className={styles.card}>Estimulación temprana y oportuna</div>

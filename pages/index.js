@@ -21,7 +21,13 @@ export default function Home() {
 
         <h1 className={styles.descriptionTitle}>Dr. Álvaro Obregón Díaz</h1>
         <p className={styles.description}>
-          Especialista en Medicina Física y Rehabilitación.
+          <b>Especialista en Medicina Física y Rehabilitación</b>
+        </p>
+        <p className={styles.description}>
+          Rehabilitación cardio-pulmunar en pacientes post-COVID-19
+        </p>
+        <p className={styles.description}>
+          Tratamiento de lesiones musculares y articulares con método de infiltración de plasma rico en plaquetas
         </p>
         <p className={styles.description}>
           Certificación Internacional en vendaje funcional en deportistas, vendaje neuro muscular y manejo de dolor miofascial.
